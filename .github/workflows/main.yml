@@ -38,6 +38,7 @@ jobs:
           echo "🎉 Despliegue exitoso"
 
       - name: Publicar artefacto
+        run: |
         uses: actions/upload-artifact@v4
         with:
           name: build-demo
